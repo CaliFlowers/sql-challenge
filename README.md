@@ -10,7 +10,7 @@ Data Engineering, or the structuring and organization of data through proper man
  
 * [DATA ENGINEERING](#data-engineering)
 * [SQL](#sql)
-* [SQL Alchemy] (#sql-alchemy)
+* [SQL ALCHEMY] (#sql-alchemy)
 
 ##Data Engineering
 *ERD
