@@ -31,7 +31,7 @@ from multple tables based on shared keys; and are flexible enough to be used in 
 
 *Aggregation
 
-In addition, SQL allows the user to obtain descriptive statistics about data it obtains from a query. This exervise demonstrates such aggregations with the use of the COUNT function. Similar aggregation functions such as AVG, MIN, and MAX can be also be used when appropriate. 
+In addition, SQL allows the user to obtain descriptive statistics about data it obtains from a query. This exervise demonstrates such aggregations with the use of the COUNT function. Similar aggregation functions such as AVG, MIN, and MAX can be also be used when appropriate. For many basic dataanalyses, a simple SQL query can be sufficient to find substantial insights. 
 
 
 ##SQL Alchemy
@@ -41,7 +41,7 @@ In addition, SQL allows the user to obtain descriptive statistics about data it 
 SQL, however is limited in the types of statistical analyses it can perfrorm. It's useful for collecting, storing, and aggregating data; but data visualization and analysis options are limited. The second half of this example involves 
 transferring the data from PostGRES to Jupyter Notebook where the extracted datacan be visualized through Python libraries, or subjected to further analysis.
 An SQL-Python Interface  
-SQL Alchemy is one way of combining SQL and Python. Simply put, SQL Alchemy connects SQL engines with Jupyter Notrbook in such a way that 
+SQL Alchemy is one way of combining SQL and Python. Simply put, SQL Alchemy is a library that connects SQL engines to Jupyter Notrbook in such a way that 
 SQL queries on an SQL database hosted in a SQL engine can be made from Jupyter notebook. This allows a Python programmer to benefit from the flexible functionality of SQL without sacrificing the functionality of Python libraries. 
 
 *Object Relation Mapping (ORM)
