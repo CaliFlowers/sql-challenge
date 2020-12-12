@@ -10,7 +10,7 @@ Data Engineering, or the structuring and organization of data through proper man
  
 * [DATA ENGINEERING](#data-engineering)
 * [SQL](#sql)
-* [SQL Alchemy] (#sql-alchemy_
+* [SQL Alchemy] (#sql-alchemy)
 
 ##Data Engineering
 *ERD
@@ -22,7 +22,8 @@ The first part of this example is the greation of an ERD connecting different ta
 It's hard to discuss SQL without first discussing the utlity of relational databases. A relational database can connect massive amounts of data contained in multiple tables as long as the tables can be linked thrpugh a set of shared "keys". This functionality is demonstrated in this activity
 In order to normalize the employee data, it had to be split into six different tables. This would be a nightmare to sift through in a Pandas dataframe; but it's the exact problem Relational Databases are good at dealing with. 
 
-##SQL 
+##SQL
+
 *Queries
 
 As demonstrated by the several queries in this example, SQL queries can easily combine information
@@ -33,7 +34,8 @@ from multple tables based on shared keys; and are flexible enough to be used in 
 In addition, SQL allows the user to obtain descriptive statistics about data it obtains from a query. This exervise demonstrates such aggregations with the use of the COUNT function. Similar aggregation functions such as AVG, MIN, and MAX can be also be used when appropriate. 
 
 
-SQL Alchemy
+##SQL Alchemy
+
 *Limitations of SQL
 
 SQL, however is limited in the types of statistical analyses it can perfrorm. It's useful for collecting, storing, and aggregating data; but data visualization and analysis options are limited. The second half of this example involves 
