@@ -13,6 +13,7 @@ Data Engineering, or the structuring and organization of data through proper man
 * [SQL ALCHEMY](#sql-alchemy)
 
 ##Data Engineering
+
 *ERD
 
 The first part of this example is the greation of an ERD connecting different tables and sketching out the relationships between them. This is a basic task of Data Engineering
@@ -45,3 +46,8 @@ SQL Alchemy is one way of combining SQL and Python. Simply put, SQL Alchemy is a
 SQL queries on an SQL database hosted in a SQL engine can be made from Jupyter notebook. This allows a Python programmer to benefit from the flexible functionality of SQL without sacrificing the functionality of Python libraries. 
 
 *Object Relation Mapping (ORM)
+
+Since most programmers have worked with SQL databases, Object Relation Mapping is a technique that allows SQL queries to be made from the medium of another programming language SQLAlchemy is a Python example of a library that facilitates this procedure. This allows programmers to easily integrate their queries into SQL databases with a language with which they're already familiar. 
+
+Familiarity with a langauge can make a big difference depending on what a programmer is trying to accomplish.
+It's true that familiarity with SQL would render an ORM unecessary; but a dedicated Python Programmer may still prefer the integration of functionalities and simply mimicking SQL functionality with Python syntax.  
