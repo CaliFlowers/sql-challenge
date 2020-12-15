@@ -8,9 +8,9 @@ although SQL functionality allows for filtering across multiple databasesthrough
 Data Engineering, or the structuring and organization of data through proper manipulations, is one of the most underappreciated tasks pushed onto Data Analysts. SQL is excellent with this task., especially because of its utility with relational database systems. 
  Since "data normalization" tends to work best when data dependencies and transitivity are removed, often by splitting offending data into separate tables connected by common keys.Normal forms make manipulation and analysis of data easier. 
  
-* [DATA ENGINEERING](# data-engineering)
-* [SQL](# sql)
-* [SQL ALCHEMY](# sql-alchemy)
+* [DATA ENGINEERING](#data-engineering)
+* [SQL](#sql)
+* [SQL ALCHEMY](#sql-alchemy)
 
 ## Data Engineering
 
