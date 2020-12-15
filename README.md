@@ -16,7 +16,7 @@ Data Engineering, or the structuring and organization of data through proper man
 
 *ERD
 
-The first part of this example is the greation of an ERD connecting different tables and sketching out the relationships between them. This is a basic task of Data Engineering
+The first part of this example is the greation of an ERD connecting different tables and sketching out the relationships between them. This is a basic task of Data Engineering. SQL is difficult without a basic understanding of the relationships between related data tabls. ERDs provide signposts for where joins and subqueries can be made hence making intricate analyses possible with normalized data tables. A ERD is the basc task of the Data Engineer, along with designing normalized tables; and makes an SQL programmer's tasks infinitely simpler. 
 
 *Relational Databases
 
