@@ -8,11 +8,11 @@ although SQL functionality allows for filtering across multiple databasesthrough
 Data Engineering, or the structuring and organization of data through proper manipulations, is one of the most underappreciated tasks pushed onto Data Analysts. SQL is excellent with this task., especially because of its utility with relational database systems. 
  Since "data normalization" tends to work best when data dependencies and transitivity are removed, often by splitting offending data into separate tables connected by common keys.Normal forms make manipulation and analysis of data easier. 
  
-* [DATA ENGINEERING](#data-engineering)
-* [SQL](#sql)
-* [SQL ALCHEMY](#sql-alchemy)
+* [DATA ENGINEERING](# data-engineering)
+* [SQL](# sql)
+* [SQL ALCHEMY](# sql-alchemy)
 
-##Data Engineering
+## Data Engineering
 
 *ERD
 
@@ -23,7 +23,7 @@ The first part of this example is the greation of an ERD connecting different ta
 It's hard to discuss SQL without first discussing the utlity of relational databases. A relational database can connect massive amounts of data contained in multiple tables as long as the tables can be linked thrpugh a set of shared "keys". This functionality is demonstrated in this activity
 In order to normalize the employee data, it had to be split into six different tables. This would be a nightmare to sift through in a Pandas dataframe; but it's the exact problem Relational Databases are good at dealing with. 
 
-##SQL
+## SQL
 
 *Queries
 
@@ -32,10 +32,10 @@ from multple tables based on shared keys; and are flexible enough to be used in 
 
 *Aggregation
 
-In addition, SQL allows the user to obtain descriptive statistics about data it obtains from a query. This exervise demonstrates such aggregations with the use of the COUNT function. Similar aggregation functions such as AVG, MIN, and MAX can be also be used when appropriate. For many basic dataanalyses, a simple SQL query can be sufficient to find substantial insights. 
+In addition, SQL allows the user to obtain descriptive statistics about data it obtains from a query. This exervise demonstrates such aggregations with the use of the COUNT function. Similar aggregation functions such as AVG, MIN, and MAX can be also be used when appropriate. For many basic data analyses, a simple SQL query can be sufficient to find substantial insights. 
 
 
-##SQL Alchemy
+## SQL Alchemy
 
 *Limitations of SQL
 
@@ -51,3 +51,8 @@ Since most programmers have worked with SQL databases, Object Relation Mapping i
 
 Familiarity with a langauge can make a big difference depending on what a programmer is trying to accomplish.
 It's true that familiarity with SQL would render an ORM unecessary; but a dedicated Python Programmer may still prefer the integration of functionalities and simply mimicking SQL functionality with Python syntax.  
+
+*Insights
+
+It might be helpful to point out that manipulating the data directly on Jupyter Notebook alowed for the visualization of salary data in this hypothetical company on two plots. 
+Plot A is a histogram showing the distribution of salaries for all employees in this company; Plot B is a bar chart showing the mean salary for each job title in the organization. Most interestingly, Plot A shows a wide range of employee salaries; while Plot B suggests the mean salaryhovers around the mid-50,000 range regardless of job title.This ibservation is not one which can be easily made using data manipulaion in a pandas dataframe alone; but neither can it be said that an SQL database could have made this insight possible without data visualization. Whatever can be said of either SQL or Python, both work better in combination. 
