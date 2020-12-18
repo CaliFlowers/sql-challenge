@@ -55,4 +55,6 @@ It's true that familiarity with SQL would render an ORM unecessary; but a dedica
 *Insights
 
 It might be helpful to point out that manipulating the data directly on Jupyter Notebook alowed for the visualization of salary data in this hypothetical company on two plots. 
-Plot A is a histogram showing the distribution of salaries for all employees in this company; Plot B is a bar chart showing the mean salary for each job title in the organization. Most interestingly, Plot A shows a wide range of employee salaries; while Plot B suggests the mean salaryhovers around the mid-50,000 range regardless of job title.This ibservation is not one which can be easily made using data manipulaion in a pandas dataframe alone; but neither can it be said that an SQL database could have made this insight possible without data visualization. Whatever can be said of either SQL or Python, both work better in combination. 
+Plot A is a histogram showing the distribution of salaries for all employees in this company; Plot B is a bar chart showing the mean salary for each job title in the organization. Most interestingly, Plot A shows a wide range of employee salaries; while Plot B suggests the mean salaryhovers around the mid-50,000 range regardless of job title.This ibservation is not one which can be easily made using data manipulaion in a pandas dataframe alone; but neither can it be said that an SQL database could have made this insight possible without data visualization. Whatever can be said of either SQL or Python, both work better in combination.  
+
+
